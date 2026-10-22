@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GUNVANT CHAUDHARI // QA Automation Engineer | Software Test Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Gunvant Chaudhari is a QA Automation Engineer & Software Test Engineer with 8 years of experience in Manual Testing, Playwright Automation using JavaScript, API Testing, and CI/CD pipeline integration.">
+  <meta name="keywords" content="Gunvant Chaudhari, QA Automation Engineer, Software Test Engineer, Playwright, JavaScript, API Testing, Postman, Oracle SQL, Jenkins, Pune, AT&T Cricket Wireless, Amdocs">
+  <meta name="author" content="Gunvant Chaudhari">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gunvant Chaudhari // QA Automation Engineer | Software Test Engineer">
+  <meta property="og:description" content="8 Years of Experience in Manual Testing, Playwright Automation with JavaScript, API Testing, and CI/CD Integration.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f5d4'><path d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/></svg>">
+
+  <!-- Premium Typography: Syne (Headings), Plus Jakarta Sans (Body), JetBrains Mono (Tech Telemetry) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet (Production & GitHub Pages Compatible) -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-obsidian text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-cyan-500/30 selection:text-cyan-200">
+
+  <!-- Custom Ambient Cursor Glow -->
+  <div id="cursor-glow" class="cursor-glow"></div>
+  <div id="cursor-dot" class="cursor-dot"></div>
+
+  <!-- Background Cybernetic Grid & Noise Layer -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute inset-0 bg-cyber-grid opacity-20"></div>
+    <div class="ambient-mesh-glow"></div>
+  </div>
+
+  <!-- ========================================================
+       TOP NAVIGATION BAR (Futuristic Glassmorphism)
+       ======================================================== -->
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3 sm:py-4" id="main-header">
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="glass-pill px-4 sm:px-6 py-2.5 sm:py-3 rounded-full border border-white/10 shadow-2xl backdrop-blur-xl bg-obsidian-glass">
+        
+        <!-- Logo / Name Identifier -->
+        <a href="#hero" class="nav-brand group">
+          <div class="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-display font-bold text-white text-xs shadow-lg shadow-cyan-500/25 group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
+            <span>GC</span>
+            <div class="absolute -inset-0.5 rounded-xl bg-gradient-to-r from-cyan-400 to-violet-500 opacity-0 group-hover:opacity-75 blur transition-opacity duration-300 -z-10"></div>
+          </div>
+          <div class="flex flex-col">
+            <span class="nav-brand-title group-hover:text-cyan-300 transition-colors">
+              GUNVANT CHAUDHARI
+            </span>
+            <span class="nav-brand-sub">
+              <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              QA AUTOMATION // 8 YRS EXP
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links (Responsive: Compact on 1180-1320px, Full on 1320px+) -->
+        <div class="nav-links-desktop">
+          <a href="#hero" class="nav-link active"><span class="nav-link-num">01. </span>Home</a>
+          <a href="#about" class="nav-link"><span class="nav-link-num">02. </span>About</a>
+          <a href="#skills" class="nav-link"><span class="nav-link-num">03. </span>Skills</a>
+          <a href="#experience" class="nav-link"><span class="nav-link-num">04. </span>Experience</a>
+          <a href="#projects" class="nav-link"><span class="nav-link-num">05. </span>Projects</a>
+          <a href="#services" class="nav-link"><span class="nav-link-num">06. </span>Capabilities</a>
+          <a href="#education" class="nav-link"><span class="nav-link-num">07. </span>Education</a>
+          <a href="#contact" class="nav-link"><span class="nav-link-num">08. </span>Contact</a>
+        </div>
+
+        <!-- Right Quick Actions -->
+        <div class="nav-actions">
+          <!-- Audio Ambience Switcher -->
+          <button id="sound-toggle-btn" class="glass-action-btn flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white/10 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors flex-shrink-0" title="Toggle Spatial Audio Ambience" aria-label="Toggle Spatial Audio Ambience">
+            <svg id="sound-off-icon" class="w-4 h-4" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+            </svg>
+            <svg id="sound-on-icon" class="w-4 h-4 hidden text-cyan-400 animate-pulse" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+            </svg>
+          </button>
+
+          <!-- Desktop Quick Resume Button -->
+          <button id="nav-resume-btn" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono font-medium rounded-full border border-white/10 bg-white/5 hover:bg-white/10 text-slate-300 hover:text-cyan-400 transition-colors flex-shrink-0" title="Download Resume" aria-label="Download Gunvant Chaudhari Resume">
+            <svg class="w-3.5 h-3.5 text-cyan-400" width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <span>RESUME</span>
+          </button>
+
+          <!-- Direct Inquire CTA -->
+          <a href="#contact" class="nav-contact-btn" title="Contact Gunvant Chaudhari">
+            <span>GET IN TOUCH</span>
+            <svg class="w-3.5 h-3.5" width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+
+          <!-- Mobile Menu Trigger -->
+          <button id="mobile-menu-btn" class="nav-mobile-trigger flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white/10 text-slate-300 flex-shrink-0" aria-label="Open mobile navigation menu">
+            <svg class="w-5 h-5" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Slide-out Menu -->
+    <div id="mobile-nav" class="hidden lg:hidden px-4 pt-3 w-full max-w-7xl mx-auto">
+      <div class="glass-card rounded-2xl p-5 flex flex-col gap-3 border border-white/10 backdrop-blur-2xl">
+        <a href="#hero" class="mobile-nav-link">01. Home</a>
+        <a href="#about" class="mobile-nav-link">02. About Me</a>
+        <a href="#skills" class="mobile-nav-link">03. Technical Skills</a>
+        <a href="#experience" class="mobile-nav-link">04. Professional Experience</a>
+        <a href="#projects" class="mobile-nav-link">05. Featured Projects</a>
+        <a href="#services" class="mobile-nav-link">06. Capabilities</a>
+        <a href="#education" class="mobile-nav-link">07. Education</a>
+        <a href="#contact" class="mobile-nav-link">08. Contact</a>
+        <div class="pt-3 border-t border-white/10 flex flex-col gap-3">
+          <button id="mobile-resume-btn" class="w-full text-left py-2.5 px-3.5 rounded-xl border border-cyan-500/30 bg-cyan-950/30 text-cyan-300 font-mono text-xs flex items-center justify-between hover:bg-cyan-900/40 transition-colors" aria-label="Download Gunvant Chaudhari Resume">
+            <span class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              <span>DOWNLOAD RESUME</span>
+            </span>
+            <span class="text-[10px] text-cyan-400 font-semibold uppercase">PDF</span>
+          </button>
+          <div class="flex justify-between items-center text-xs font-mono pt-1 text-slate-400">
+            <span>PUNE, MH, INDIA</span>
+            <span class="text-emerald-400">AVAILABLE IMMEDIATELY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       MAIN PAGE CONTENT WRAPPER
+       ======================================================== -->
+  <main class="w-full">
+
+  <!-- ========================================================
+       PRIMARY HERO SECTION (PRESERVED AVATAR VIDEO ARCHITECTURE)
+       Requirements Fulfilled:
+       1. Avatar video fills the entire hero section.
+       2. Video visible immediately on load (autoplay, muted, playsinline).
+       3. Avatar remains visible on the RIGHT side.
+       4. All text content strictly on the LEFT side.
+       5. Nothing covers the avatar (directional gradient mask leaves right side 100% visible).
+       6. Real professional information for Gunvant Chaudhari populated cleanly.
+       ======================================================== -->
+  <section id="hero" class="hero-section relative min-h-screen w-full flex items-center overflow-hidden bg-obsidian">
+
+    <!-- 1. FULL-BLEED AVATAR VIDEO CONTAINER -->
+    <div class="avatar-video-stage absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none select-none">
+      
+      <!-- Video Element -->
+      <video
+        id="avatar-hero-video"
+        class="hero-video avatar-video-element"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+        aria-label="Gunvant Chaudhari QA Automation Engineer Avatar Hero Video"
+        poster="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1920&q=80">
+        <!-- Local Avatar Video Sources (Drop your personal avatar video into assets/ or root) -->
+        <source src="assets/avatar.mp4" type="video/mp4">
+        <source src="avatar.mp4" type="video/mp4">
+        <!-- High-Quality Futuristic AI Avatar / Digital Human Video Stream -->
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-futuristic-woman-with-neon-lights-and-glasses-42407-large.mp4" type="video/mp4">
+        <!-- Secondary Fallback Stream -->
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-young-woman-with-blue-neon-lights-portrait-42353-large.mp4" type="video/mp4">
+      </video>
+
+      <!-- Procedural Holographic Canvas Fallback -->
+      <canvas id="avatar-hologram-canvas" class="avatar-canvas-fallback"></canvas>
+
+      <!-- Directional Lighting Gradients:
+           The left side has dark shading for crisp text legibility,
+           while the entire right side (where avatar sits) has 0% opacity so
+           NOTHING COVERS THE AVATAR! -->
+      <div class="hero-directional-overlay"></div>
+      
+      <!-- Subtle top and bottom feathering for seamless blend -->
+      <div class="hero-bottom-blend"></div>
+      <div class="hero-top-blend"></div>
+
+      <!-- Atmospheric Neon Backlight Behind Avatar on the Right -->
+      <div class="avatar-ambient-glow"></div>
+    </div>
+
+    <!-- 2. HERO CONTENT LAYER (FLEX SPACE-BETWEEN: TEXT ON LEFT, AVATAR ON RIGHT) -->
+    <div class="hero-content-wrapper px-6 md:px-12 lg:px-16 pt-24 pb-16 min-h-screen">
+      
+      <!-- Left Column Layout (Text container strictly on the left) -->
+      <div class="hero-left-column hero-text-container">
+        
+        <!-- Live Status Pill & System Telemetry -->
+        <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/40 backdrop-blur-md mb-6 shadow-lg shadow-emerald-950/50 hero-stagger-1">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+          </span>
+          <span class="font-mono text-xs text-emerald-300 font-medium tracking-wide">
+            AVAILABLE IMMEDIATELY // PUNE, MAHARASHTRA, INDIA
+          </span>
+        </div>
+
+        <!-- Name (High-Impact Typography & Metallic Gradient) -->
+        <h1 class="hero-name font-display text-4xl sm:text-6xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.08] mb-4 hero-stagger-2">
+          GUNVANT <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-300 to-indigo-400 text-glow">
+            CHAUDHARI
+          </span>
+        </h1>
+
+        <!-- Professional Title -->
+        <div class="hero-profession flex items-center gap-3 mb-6 hero-stagger-3">
+          <div class="h-px w-8 bg-gradient-to-r from-cyan-400 to-transparent"></div>
+          <h2 class="font-mono text-sm sm:text-base md:text-lg text-cyan-400 font-semibold tracking-wider uppercase whitespace-nowrap">
+            QA Automation Engineer | Software Test Engineer
+          </h2>
+        </div>
+
+        <!-- Introduction Text (Exact Content Provided) -->
+        <p class="hero-intro text-base sm:text-lg text-slate-300 font-light leading-relaxed mb-9 hero-stagger-4 max-w-lg">
+          I'm a Software Test Engineer with 8 years of experience in Manual Testing, Automation Testing, and API Testing. I specialize in Playwright automation using JavaScript, end-to-end testing, and building maintainable UI automation frameworks. I also have experience with Postman, SQL, Jenkins, Git, and Agile methodologies.
+        </p>
+
+        <!-- Call to Action Buttons (Normalized & Balanced) -->
+        <div class="hero-actions flex flex-wrap items-center gap-3 sm:gap-4 mb-10 hero-stagger-5">
+          
+          <!-- Primary Button: View My Projects (Scrolls to Projects Section) -->
+          <a href="#projects" class="primary-hero-btn group relative inline-flex items-center justify-center gap-2.5 px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl font-display font-semibold text-sm tracking-wide text-white overflow-hidden transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-400/40">
+            <!-- Glowing gradient background -->
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 transition-all duration-500 group-hover:scale-105"></div>
+            <!-- Glass shimmer sheen -->
+            <div class="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -skew-x-12"></div>
+            <!-- Button Content -->
+            <span class="relative z-10 flex items-center gap-2">
+              <span>VIEW MY PROJECTS</span>
+              <svg class="hero-btn-icon w-4 h-4 transform group-hover:translate-x-1 transition-transform" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </span>
+          </a>
+
+          <!-- View Video Intro Button (Plays avatar video intro) -->
+          <button id="hero-video-intro-btn" class="video-intro-btn secondary-hero-btn group relative inline-flex items-center justify-center gap-2 px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl font-display font-semibold text-sm tracking-wide text-slate-200 border border-white/15 bg-white/5 hover:bg-white/10 backdrop-blur-xl transition-all duration-300 hover:border-cyan-400/50 hover:text-white" title="Play Avatar Video Intro with Audio" aria-label="Play avatar video intro with audio">
+            <span class="relative z-10 flex items-center gap-2">
+              <svg class="hero-btn-icon w-4 h-4 text-cyan-400 transform group-hover:scale-110 transition-transform" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+              <span>VIEW VIDEO INTRO</span>
+            </span>
+          </button>
+
+          <!-- Secondary Button: Contact Me (Scrolls to Contact Section) -->
+          <a href="#contact" class="secondary-hero-btn group relative inline-flex items-center justify-center gap-2 px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl font-display font-semibold text-sm tracking-wide text-slate-200 border border-white/15 bg-white/5 hover:bg-white/10 backdrop-blur-xl transition-all duration-300 hover:border-cyan-400/50 hover:text-white">
+            <span class="relative z-10 flex items-center gap-2">
+              <span class="hero-btn-dot w-2 h-2 rounded-full bg-cyan-400 group-hover:scale-125 transition-transform"></span>
+              <span>CONTACT ME</span>
+            </span>
+          </a>
+
+          <!-- Resume Action Button (Opens modal or downloads actual resume when configured) -->
+          <button id="hero-resume-btn" class="inline-flex items-center gap-2 px-5 py-3 sm:py-3.5 rounded-xl font-mono text-xs font-medium border border-white/10 bg-white/5 hover:bg-white/10 text-slate-300 hover:text-cyan-400 transition-colors" aria-label="Download Gunvant Chaudhari Resume">
+            <svg class="hero-btn-icon w-4 h-4 text-cyan-400" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <span>RESUME</span>
+          </button>
+        </div>
+
+        <!-- Telemetry Metrics & Verified Professional Highlights (Left Side Only) -->
+        <div class="hero-metrics grid grid-cols-3 gap-6 pt-6 border-t border-white/10 max-w-lg hero-stagger-6">
+          <div class="metric-item">
+            <span class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight">8</span>
+            <p class="font-mono text-[11px] text-slate-400 uppercase tracking-wider mt-0.5">Years Testing</p>
+          </div>
+          <div class="metric-item">
+            <span class="font-display text-2xl sm:text-3xl font-bold text-cyan-400 tracking-tight">2</span>
+            <p class="font-mono text-[11px] text-slate-400 uppercase tracking-wider mt-0.5">Enterprise Apps</p>
+          </div>
+          <div class="metric-item">
+            <span class="font-display text-2xl sm:text-3xl font-bold text-emerald-400 tracking-tight">100%</span>
+            <p class="font-mono text-[11px] text-slate-400 uppercase tracking-wider mt-0.5">Immediate Join</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Avatar Framing Container (Leaves right side unobstructed for avatar video) -->
+      <div class="hero-avatar-container" aria-hidden="true"></div>
+
+    </div>
+
+    <!-- 3. INTERACTIVE AVATAR VIDEO UTILITY TOOLBAR (Anchored Bottom-Right, Strictly Separated from Left Text) -->
+    <div class="avatar-video-toolbar">
+      
+      <!-- Video Audio Mute/Unmute Toggle -->
+      <button id="video-sound-btn" class="video-ctrl-btn p-2 rounded-xl text-slate-300 hover:text-cyan-400 hover:bg-white/10 transition-colors" title="Mute/Unmute Avatar Video" aria-label="Toggle avatar video sound">
+        <svg id="video-muted-icon" class="w-4 h-4" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+        </svg>
+        <svg id="video-unmuted-icon" class="w-4 h-4 hidden text-cyan-400" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+        </svg>
+      </button>
+
+      <!-- Video Pause / Play Toggle -->
+      <button id="video-play-btn" class="video-ctrl-btn p-2 rounded-xl text-slate-300 hover:text-cyan-400 hover:bg-white/10 transition-colors" title="Pause / Play Video" aria-label="Toggle avatar video playback">
+        <svg id="video-pause-icon" class="w-4 h-4" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        <svg id="video-play-icon" class="w-4 h-4 hidden text-cyan-400" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+      </button>
+
+      <!-- Custom Video Loader -->
+      <label for="custom-video-input" class="video-ctrl-btn flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-mono text-cyan-300 hover:text-white bg-cyan-950/60 hover:bg-cyan-900 border border-cyan-500/30 cursor-pointer transition-all" title="Click to load your personal avatar video file">
+        <svg class="w-3.5 h-3.5" width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+        </svg>
+        <span>VIDEO</span>
+      </label>
+      <input type="file" id="custom-video-input" accept="video/mp4,video/webm,video/ogg" class="hidden">
+
+      <span class="video-toolbar-tag text-[10px] font-mono text-slate-500 uppercase tracking-wider pr-1">HERO AVATAR</span>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <a href="#about" class="hero-scroll-indicator text-slate-400 hover:text-cyan-400 transition-colors">
+      <span class="font-mono text-[10px] tracking-widest uppercase">DISCOVER</span>
+      <div class="w-5 h-9 rounded-full border border-white/20 flex items-start justify-center p-1">
+        <div class="w-1 h-2 rounded-full bg-cyan-400 animate-bounce"></div>
+      </div>
+    </a>
+
+  </section>
+
+  <!-- ========================================================
+       SECTION 2: ABOUT ME SECTION (Bento Grid)
+       ======================================================== -->
+  <section id="about" class="py-32 relative z-10 border-t border-white/5 bg-obsidian-gradient w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+            <span>[ SECTION 02 ]</span>
+            <div class="w-12 h-px bg-cyan-500/40"></div>
+            <span>PROFESSIONAL BACKGROUND</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            ABOUT <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">
+              ME
+            </span>
+          </h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm md:text-base font-light leading-relaxed">
+          8 years of professional experience delivering reliable software through structured testing, effective defect management, and maintainable automation.
+        </p>
+      </div>
+
+      <!-- Bento Grid Layout (Flexible Heights & Overflow-Proof) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Bento Card 1: Core Summary (Wide) -->
+        <div class="bento-card md:col-span-2 group">
+          <div class="bento-glow"></div>
+          <div class="relative z-10 p-8 md:p-10 flex flex-col justify-between min-h-full flex-1">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-6 group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-cyan-400 tracking-wider uppercase">CORE PHILOSOPHY & BACKGROUND</span>
+              <h3 class="font-display text-2xl md:text-3xl font-bold text-white mt-2 mb-4">
+                Structured Testing & Quality Engineering
+              </h3>
+              <!-- Exact About Me content from prompt -->
+              <p class="text-slate-300 leading-relaxed text-sm md:text-base mb-4">
+                I'm a Software Test Engineer with 8 years of experience in Manual Testing and Automation Testing of web applications. My experience includes analyzing business requirements, preparing test scenarios and test cases, performing functional and regression testing, validating APIs, and verifying backend data.
+              </p>
+              <p class="text-slate-300 leading-relaxed text-sm md:text-base">
+                I have hands-on experience in UI automation using Playwright with JavaScript and the Page Object Model (POM) design pattern. I have also worked with Jenkins CI/CD pipelines, Git, Jira, Postman, Oracle SQL, and MySQL.
+              </p>
+            </div>
+            
+            <div class="flex flex-wrap items-center gap-4 mt-8 pt-6 border-t border-white/10 font-mono text-xs text-slate-400">
+              <span>EXPERIENCE: 8 YEARS</span>
+              <span>•</span>
+              <span>FOCUS: PLAYWRIGHT & JS</span>
+              <span>•</span>
+              <span>STATUS: AVAILABLE IMMEDIATELY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: Enterprise Domains -->
+        <div class="bento-card group">
+          <div class="bento-glow"></div>
+          <div class="relative z-10 p-8 flex flex-col justify-between min-h-full flex-1">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-6 group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-indigo-400 tracking-wider uppercase">ENTERPRISE DOMAINS</span>
+              <h3 class="font-display text-xl md:text-2xl font-bold text-white mt-2 mb-3">
+                Telecom & Infrastructure
+              </h3>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                I have worked on telecom retail applications (AT&T Cricket Wireless Aktivate POS) and IT infrastructure discovery solutions (Meridian) in fast-paced Agile environments.
+              </p>
+            </div>
+            <div class="mt-6 flex items-center justify-between text-xs font-mono text-cyan-300">
+              <span>AGILE / SCRUM DELIVERY</span>
+              <span>→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Location & Immediate Availability -->
+        <div class="bento-card group">
+          <div class="bento-glow"></div>
+          <div class="relative z-10 p-8 flex flex-col justify-between min-h-full flex-1">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-emerald-400 tracking-wider uppercase">BASE & AVAILABILITY</span>
+              <h3 class="font-display text-xl md:text-2xl font-bold text-white mt-2 mb-3">
+                Pune, Maharashtra, India
+              </h3>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Available immediately for permanent QA Automation Engineer and Software Test Engineer positions across Pune and hybrid/remote setups.
+              </p>
+            </div>
+            <div class="mt-6 font-mono text-xs text-emerald-400 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span>READY FOR ONBOARDING</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 4: Quality Focus & Engineering Stack (Wide) -->
+        <div class="bento-card md:col-span-2 group">
+          <div class="bento-glow"></div>
+          <div class="relative z-10 p-8 md:p-10 flex flex-col justify-between min-h-full flex-1">
+            <div>
+              <span class="font-mono text-xs text-cyan-400 tracking-wider uppercase">QUALITY COMMITMENT</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-2 mb-4">
+                Maintainable Automation & Defect Prevention
+              </h3>
+              <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
+                My focus is on delivering reliable software through structured testing, effective defect management, and maintainable automation scripts.
+              </p>
+              
+              <!-- Tag Pills of Core Technologies -->
+              <div class="tag-container skills-tags flex flex-wrap gap-2.5">
+                <span class="tag-pill">Playwright with JS</span>
+                <span class="tag-pill">Page Object Model (POM)</span>
+                <span class="tag-pill">API Testing (Postman)</span>
+                <span class="tag-pill">Jenkins CI/CD Integration</span>
+                <span class="tag-pill">Oracle SQL & MySQL</span>
+                <span class="tag-pill">Git Version Control</span>
+                <span class="tag-pill">Jira & STLC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 3: TECHNICAL SKILLS SECTION
+       ======================================================== -->
+  <section id="skills" class="py-32 relative z-10 bg-obsidian w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-16 gap-8">
+        <div>
+          <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+            <span>[ SECTION 03 ]</span>
+            <div class="w-12 h-px bg-cyan-500/40"></div>
+            <span>CAPABILITIES ARSENAL</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            TECHNICAL <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+              SKILLS & TOOLING
+            </span>
+          </h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm md:text-base font-light">
+          Verified skills categorized from 8 years of production software testing and framework engineering.
+        </p>
+      </div>
+
+      <!-- Skills Cards Grid (Clean tags, progress-free) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Category 1: Automation Testing -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">Automation Testing</h3>
+              <span class="font-mono text-[11px] text-cyan-400">Primary Specialization</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill highlight">Playwright</span>
+            <span class="tag-pill highlight">Playwright Test</span>
+            <span class="tag-pill highlight">JavaScript</span>
+            <span class="tag-pill highlight">Page Object Model (POM)</span>
+            <span class="tag-pill">UI Automation</span>
+            <span class="tag-pill">Locators</span>
+            <span class="tag-pill">Assertions</span>
+            <span class="tag-pill">Automated Test Scripts</span>
+            <span class="tag-pill">Regression Test Suites</span>
+            <span class="tag-pill">Test Script Maintenance</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Manual Testing -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">Manual Testing</h3>
+              <span class="font-mono text-[11px] text-blue-400">Functional & Regression</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill">Functional Testing</span>
+            <span class="tag-pill">System Testing</span>
+            <span class="tag-pill">Integration Testing</span>
+            <span class="tag-pill">Regression Testing</span>
+            <span class="tag-pill">Smoke Testing</span>
+            <span class="tag-pill">Sanity Testing</span>
+            <span class="tag-pill">End-to-End Testing</span>
+            <span class="tag-pill">Cross-Browser Testing</span>
+            <span class="tag-pill">Test Scenario Design</span>
+            <span class="tag-pill">Test Case Preparation</span>
+            <span class="tag-pill">Test Data Preparation</span>
+            <span class="tag-pill">Defect Retesting</span>
+          </div>
+        </div>
+
+        <!-- Category 3: API Testing -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">API Testing</h3>
+              <span class="font-mono text-[11px] text-amber-400">Postman & HTTP</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill highlight">Postman</span>
+            <span class="tag-pill">API Response Validation</span>
+            <span class="tag-pill">HTTP Status Code Validation</span>
+            <span class="tag-pill">Request & Response Payload Validation</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Database Testing -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">Database Testing</h3>
+              <span class="font-mono text-[11px] text-emerald-400">Data Integrity & SQL</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill highlight">Oracle SQL</span>
+            <span class="tag-pill highlight">MySQL</span>
+            <span class="tag-pill">Backend Data Validation</span>
+            <span class="tag-pill">Database Verification</span>
+          </div>
+        </div>
+
+        <!-- Category 5: CI/CD and Version Control -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">CI/CD & Version Control</h3>
+              <span class="font-mono text-[11px] text-indigo-400">Pipelines & Git</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill highlight">Jenkins</span>
+            <span class="tag-pill">CI/CD Pipeline Integration</span>
+            <span class="tag-pill highlight">Git</span>
+            <span class="tag-pill">Git Pull Requests</span>
+          </div>
+        </div>
+
+        <!-- Category 6: Methodologies and Tools -->
+        <div class="skill-category-card">
+          <div class="flex items-center gap-3 mb-5 pb-3 border-b border-white/10">
+            <div class="w-10 h-10 rounded-xl bg-violet-500/10 border border-violet-500/30 flex items-center justify-center text-violet-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-display text-lg font-bold text-white">Methodologies & Tools</h3>
+              <span class="font-mono text-[11px] text-violet-400">Agile, Jira & Environments</span>
+            </div>
+          </div>
+          <div class="tag-container skills-tags flex flex-wrap gap-2">
+            <span class="tag-pill">Agile</span>
+            <span class="tag-pill">Scrum</span>
+            <span class="tag-pill">SDLC</span>
+            <span class="tag-pill">STLC</span>
+            <span class="tag-pill highlight">Jira</span>
+            <span class="tag-pill">Defect Life Cycle</span>
+            <span class="tag-pill">Windows</span>
+            <span class="tag-pill">Linux</span>
+            <span class="tag-pill">GitHub Copilot</span>
+            <span class="tag-pill">Cursor</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 4: PROFESSIONAL EXPERIENCE SECTION
+       ======================================================== -->
+  <section id="experience" class="py-32 relative z-10 border-t border-white/5 bg-obsidian-gradient w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+            <span>[ SECTION 04 ]</span>
+            <div class="w-12 h-px bg-cyan-500/40"></div>
+            <span>CAREER TIMELINE</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            PROFESSIONAL <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">
+              EXPERIENCE
+            </span>
+          </h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm md:text-base font-light">
+          Chronological record of roles, enterprise clients, and responsibilities throughout 8 years of software testing.
+        </p>
+      </div>
+
+      <!-- Professional Timeline Structure -->
+      <div class="relative border-l-2 border-white/10 ml-3 md:ml-6 space-y-12">
+        
+        <!-- Role 1: Amdocs -->
+        <div class="relative pl-8 md:pl-12 group">
+          <!-- Timeline Neon Dot -->
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-cyan-400 border-4 border-obsidian shadow-lg shadow-cyan-400/50"></div>
+          
+          <div class="experience-card glass-card p-8 md:p-10 rounded-3xl border border-white/10 hover:border-cyan-400/40 transition-colors">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+              <div>
+                <h3 class="font-display text-2xl font-bold text-white">Software Test Engineer</h3>
+                <div class="text-cyan-400 font-mono text-sm font-semibold mt-0.5">Amdocs // Pune, India</div>
+              </div>
+              <span class="font-mono text-xs px-3.5 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-800 text-cyan-300 w-fit">
+                October 2021 – October 2026
+              </span>
+            </div>
+
+            <!-- Project Overview Card -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 mb-6">
+              <span class="font-mono text-xs text-cyan-400 uppercase tracking-wide block mb-1">
+                PROJECT: AT&T (CRICKET WIRELESS) – AKTIVATE POS
+              </span>
+              <p class="text-sm text-slate-300 leading-relaxed">
+                Aktivate is Cricket Wireless's retail Point-of-Sale (POS) application used by store agents for customer account creation, service activation, plan management, and order processing.
+              </p>
+            </div>
+
+            <!-- Responsibilities -->
+            <div class="space-y-2 text-sm text-slate-300">
+              <span class="font-mono text-xs text-slate-400 uppercase tracking-wider block mb-2 font-semibold">Key Responsibilities:</span>
+              <ul class="list-disc list-inside space-y-2 leading-relaxed">
+                <li>Worked in an Agile/Scrum environment throughout the SDLC and STLC.</li>
+                <li>Analyzed BRDs and user stories to prepare test scenarios, test cases, and test data.</li>
+                <li>Participated in sprint planning, daily stand-ups, defect triage, and retrospectives.</li>
+                <li>Performed functional, integration, smoke, sanity, regression, and end-to-end testing of activation workflows.</li>
+                <li>Validated backend data using SQL queries.</li>
+                <li>Managed defects in Jira and performed retesting and regression after bug fixes.</li>
+                <li>Built and maintained UI automation suites using Playwright with JavaScript.</li>
+                <li>Used the Page Object Model architecture to organize automation scripts and page objects.</li>
+                <li>Integrated Playwright test suites with Jenkins CI/CD pipelines.</li>
+                <li>Managed automation code using Git and Git pull requests.</li>
+              </ul>
+            </div>
+
+            <!-- Tech Stack Tags -->
+            <div class="tag-container skills-tags mt-6 pt-5 border-t border-white/10">
+              <span class="tag-pill">Playwright</span>
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">POM</span>
+              <span class="tag-pill">Jenkins</span>
+              <span class="tag-pill">Git</span>
+              <span class="tag-pill">Oracle SQL</span>
+              <span class="tag-pill">Jira</span>
+              <span class="tag-pill">Agile/Scrum</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2: FixStream India Pvt. Ltd. -->
+        <div class="relative pl-8 md:pl-12 group">
+          <!-- Timeline Neon Dot -->
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-indigo-400 border-4 border-obsidian shadow-lg shadow-indigo-400/50"></div>
+          
+          <div class="experience-card glass-card p-8 md:p-10 rounded-3xl border border-white/10 hover:border-indigo-400/40 transition-colors">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+              <div>
+                <h3 class="font-display text-2xl font-bold text-white">Test Engineer</h3>
+                <div class="text-indigo-400 font-mono text-sm font-semibold mt-0.5">FixStream India Pvt. Ltd. // Bangalore, India</div>
+              </div>
+              <span class="font-mono text-xs px-3.5 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-800 text-indigo-300 w-fit">
+                May 2018 – September 2021
+              </span>
+            </div>
+
+            <!-- Project Overview Card -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 mb-6">
+              <span class="font-mono text-xs text-indigo-400 uppercase tracking-wide block mb-1">
+                PROJECT: MERIDIAN – IT INFRASTRUCTURE DISCOVERY
+              </span>
+              <p class="text-sm text-slate-300 leading-relaxed">
+                Meridian is an automated agentless discovery solution that identifies and maps physical and virtual devices across hybrid IT environments. It scans more than 2,000 infrastructure entities every 30 minutes.
+              </p>
+            </div>
+
+            <!-- Responsibilities -->
+            <div class="space-y-2 text-sm text-slate-300">
+              <span class="font-mono text-xs text-slate-400 uppercase tracking-wider block mb-2 font-semibold">Key Responsibilities:</span>
+              <ul class="list-disc list-inside space-y-2 leading-relaxed">
+                <li>Analyzed technical specifications and business rules.</li>
+                <li>Prepared test scenarios and test cases.</li>
+                <li>Performed functional, regression, smoke, and system testing.</li>
+                <li>Validated API responses, payloads, and status codes using Postman.</li>
+                <li>Reported and tracked defects using Jira with clear reproduction steps.</li>
+              </ul>
+            </div>
+
+            <!-- Tech Stack Tags -->
+            <div class="tag-container skills-tags mt-6 pt-5 border-t border-white/10">
+              <span class="tag-pill">Postman</span>
+              <span class="tag-pill">API Testing</span>
+              <span class="tag-pill">Manual Testing</span>
+              <span class="tag-pill">Regression Testing</span>
+              <span class="tag-pill">System Testing</span>
+              <span class="tag-pill">Jira</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 5: FEATURED PROJECTS SECTION
+       ======================================================== -->
+  <section id="projects" class="py-32 relative z-10 bg-obsidian w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-16 gap-8">
+        <div>
+          <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+            <span>[ SECTION 05 ]</span>
+            <div class="w-12 h-px bg-cyan-500/40"></div>
+            <span>PRODUCTION ENGAGEMENTS</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            FEATURED <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+              PROJECTS
+            </span>
+          </h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm md:text-base font-light">
+          Deep-dive into enterprise applications, test automation architectures, and business workflow validations.
+        </p>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Project 1: AT&T Cricket Wireless – Aktivate POS -->
+        <div class="project-card group">
+          <div class="project-media-wrapper">
+            <!-- Tech Illustration / Abstract Architecture Background -->
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="AT&T Cricket Wireless Aktivate POS Testing" class="project-img group-hover:scale-105 transition-transform duration-700">
+            <div class="project-overlay"></div>
+            <div class="project-badge">
+              <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+              <span>TELECOM | RETAIL POS | QA AUTOMATION</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="flex justify-between items-start">
+              <div>
+                <span class="font-mono text-xs text-cyan-400 tracking-wider">ENTERPRISE PROJECT // AMDOCS</span>
+                <h3 class="font-display text-2xl font-bold text-white mt-1 group-hover:text-cyan-300 transition-colors">
+                  AT&T Cricket Wireless – Aktivate POS
+                </h3>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-mono bg-white/10 text-slate-300 border border-white/10">
+                Professional Project
+              </span>
+            </div>
+            
+            <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+              <strong>Description:</strong> Aktivate is a retail Point-of-Sale application used by Cricket Wireless store agents to manage customer accounts, activate services, manage plans, and process orders.
+            </p>
+
+            <div class="mt-4 pt-3 border-t border-white/10">
+              <span class="font-mono text-xs text-cyan-400 uppercase tracking-wide block mb-2">My Work:</span>
+              <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside leading-relaxed">
+                <li>Tested customer account creation and service activation workflows.</li>
+                <li>Validated plan management and order-processing journeys.</li>
+                <li>Performed functional, integration, regression, smoke, sanity, and end-to-end testing.</li>
+                <li>Designed test scenarios and test cases from business requirements.</li>
+                <li>Performed backend data verification using SQL.</li>
+                <li>Developed and maintained UI automation scripts using Playwright and JavaScript.</li>
+                <li>Used POM to maintain reusable page objects and test scripts.</li>
+                <li>Integrated automation suites with Jenkins and managed code using Git.</li>
+              </ul>
+            </div>
+
+            <div class="tag-container skills-tags flex flex-wrap gap-2 mt-5 font-mono text-xs">
+              <span class="tag-pill">Playwright</span>
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">Playwright Test</span>
+              <span class="tag-pill">POM</span>
+              <span class="tag-pill">Jira</span>
+              <span class="tag-pill">Jenkins</span>
+              <span class="tag-pill">Git</span>
+              <span class="tag-pill">SQL</span>
+              <span class="tag-pill">Agile/Scrum</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Meridian – IT Infrastructure Discovery -->
+        <div class="project-card group">
+          <div class="project-media-wrapper">
+            <!-- Tech Illustration / Network Discovery Background -->
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80" alt="Meridian IT Infrastructure Discovery Testing" class="project-img group-hover:scale-105 transition-transform duration-700">
+            <div class="project-overlay"></div>
+            <div class="project-badge">
+              <span>IT INFRASTRUCTURE | MANUAL TESTING | API TESTING</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="flex justify-between items-start">
+              <div>
+                <span class="font-mono text-xs text-indigo-400 tracking-wider">ENTERPRISE PROJECT // FIXSTREAM</span>
+                <h3 class="font-display text-2xl font-bold text-white mt-1 group-hover:text-cyan-300 transition-colors">
+                  Meridian – IT Infrastructure Discovery
+                </h3>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-mono bg-white/10 text-slate-300 border border-white/10">
+                Professional Project
+              </span>
+            </div>
+            
+            <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+              <strong>Description:</strong> Meridian is an agentless discovery solution that discovers and maps infrastructure entities across hybrid IT environments (scanning >2,000 infrastructure entities every 30 minutes).
+            </p>
+
+            <div class="mt-4 pt-3 border-t border-white/10">
+              <span class="font-mono text-xs text-indigo-400 uppercase tracking-wide block mb-2">My Work:</span>
+              <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside leading-relaxed">
+                <li>Analyzed technical specifications and business requirements.</li>
+                <li>Prepared and executed manual test cases.</li>
+                <li>Performed functional, regression, smoke, and system testing.</li>
+                <li>Validated API responses, payloads, and status codes using Postman.</li>
+                <li>Reported and tracked defects using Jira.</li>
+              </ul>
+            </div>
+
+            <div class="tag-container skills-tags flex flex-wrap gap-2 mt-5 font-mono text-xs">
+              <span class="tag-pill">Postman</span>
+              <span class="tag-pill">Jira</span>
+              <span class="tag-pill">Manual Testing</span>
+              <span class="tag-pill">API Testing</span>
+              <span class="tag-pill">Regression Testing</span>
+              <span class="tag-pill">System Testing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 6: WHAT I DO // TESTING CAPABILITIES
+       ======================================================== -->
+  <section id="services" class="py-32 relative z-10 border-t border-white/5 bg-obsidian-gradient w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-20">
+        <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center justify-center gap-2">
+          <span>[ SECTION 06 ]</span>
+          <div class="w-8 h-px bg-cyan-500/40"></div>
+          <span>TESTING CAPABILITIES</span>
+        </div>
+        <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+          WHAT <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">
+            I DELIVER
+          </span>
+        </h2>
+        <p class="text-slate-400 mt-4 text-sm md:text-base font-light">
+          Core testing capabilities and technical practices I contribute to engineering teams.
+        </p>
+      </div>
+
+      <!-- 6 Capabilities Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">Manual Software Testing</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Requirement analysis, test scenario preparation, test case execution, functional testing, regression testing, integration testing, and end-to-end testing.
+          </p>
+        </div>
+
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">Playwright Automation Testing</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            UI automation using Playwright, JavaScript, Playwright Test, reusable page objects, locators, assertions, and the POM design pattern.
+          </p>
+        </div>
+
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">API Testing</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            API validation using Postman, including response status codes, request and response payloads, and expected application behavior.
+          </p>
+        </div>
+
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">Database Testing</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Backend data validation using Oracle SQL and MySQL to verify data accuracy and integrity.
+          </p>
+        </div>
+
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-violet-500/10 border border-violet-500/30 flex items-center justify-center text-violet-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">Regression Test Automation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Development, execution, and maintenance of automation scripts for repeatable regression testing.
+          </p>
+        </div>
+
+        <div class="bento-card group p-8">
+          <div class="w-12 h-12 rounded-2xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-400 mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold text-white mb-2">CI/CD Integration</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Integration of Playwright test suites into Jenkins pipelines and source code management using Git.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 7: EDUCATION SECTION // ACADEMIC FOUNDATION
+       ======================================================== -->
+  <section id="education" class="py-32 relative z-10 bg-obsidian w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-2 flex items-center gap-2">
+            <span>[ SECTION 07 ]</span>
+            <div class="w-12 h-px bg-cyan-500/40"></div>
+            <span>ACADEMIC FOUNDATION</span>
+          </div>
+          <h2 class="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+            ACADEMIC <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">
+              EDUCATION
+            </span>
+          </h2>
+        </div>
+        <p class="text-slate-400 max-w-md text-sm md:text-base font-light">
+          Engineering foundation in electronics and telecommunications, providing core technical problem-solving and systems validation principles.
+        </p>
+      </div>
+
+      <!-- Improved Education Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto w-full">
+        
+        <!-- Qualification 1: Bachelor of Engineering -->
+        <div class="glass-card p-7 sm:p-9 rounded-3xl border border-white/10 hover:border-cyan-400/40 transition-all flex flex-col justify-between group shadow-xl">
+          <div>
+            <!-- Top Row: Icon & Date Badge -->
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 group-hover:scale-105 transition-transform flex-shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5"/>
+                </svg>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-mono font-medium bg-cyan-950/70 border border-cyan-500/30 text-cyan-300">
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                2013 – 2016
+              </span>
+            </div>
+
+            <!-- Degree Title & Specialization -->
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight mb-1">
+              Bachelor of Engineering
+            </h3>
+            <div class="text-sm sm:text-base font-semibold text-cyan-400 font-mono tracking-wide mb-6">
+              Electronics and Telecommunication Engineering
+            </div>
+
+            <!-- Institution & University Box -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/5 space-y-3 mb-6">
+              <div>
+                <span class="text-[11px] font-mono text-slate-400 uppercase tracking-wider block mb-0.5">INSTITUTION</span>
+                <span class="text-base sm:text-lg font-bold text-slate-100 break-words leading-snug">RCPIT Shirpur</span>
+              </div>
+              <div class="pt-2 border-t border-white/5">
+                <span class="text-[11px] font-mono text-slate-400 uppercase tracking-wider block mb-0.5">AFFILIATED UNIVERSITY</span>
+                <span class="text-sm font-medium text-slate-300">NMU Jalgaon</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Evaluation Badge -->
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-mono text-slate-400">Academic Score</span>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-cyan-500/10 border border-cyan-500/30 font-mono text-xs font-semibold text-cyan-300">
+              <span class="text-slate-400 uppercase">CGPA</span>
+              <span class="w-1 h-1 rounded-full bg-cyan-400"></span>
+              <span class="text-white font-bold text-sm">6.70</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Qualification 2: Diploma in Industrial Electronics -->
+        <div class="glass-card p-7 sm:p-9 rounded-3xl border border-white/10 hover:border-indigo-400/40 transition-all flex flex-col justify-between group shadow-xl">
+          <div>
+            <!-- Top Row: Icon & Date Badge -->
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 group-hover:scale-105 transition-transform flex-shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                </svg>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-mono font-medium bg-indigo-950/70 border border-indigo-500/30 text-indigo-300">
+                <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                2009 – 2012
+              </span>
+            </div>
+
+            <!-- Degree Title & Specialization -->
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight mb-1">
+              Diploma in Industrial Electronics
+            </h3>
+            <div class="text-sm sm:text-base font-semibold text-indigo-400 font-mono tracking-wide mb-6">
+              Industrial Electronics
+            </div>
+
+            <!-- Institution & Board Box -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/5 space-y-3 mb-6">
+              <div>
+                <span class="text-[11px] font-mono text-slate-400 uppercase tracking-wider block mb-0.5">INSTITUTION</span>
+                <span class="text-base sm:text-lg font-bold text-slate-100 break-words leading-snug">S.S.V.P.V.S.B.S.D. Polytechnic, Dhule</span>
+              </div>
+              <div class="pt-2 border-t border-white/5">
+                <span class="text-[11px] font-mono text-slate-400 uppercase tracking-wider block mb-0.5">EXAMINATION BOARD</span>
+                <span class="text-sm font-medium text-slate-300">MSBTE (Maharashtra State Board of Technical Education)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Accreditation Badge -->
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <span class="text-xs font-mono text-slate-400">Accredited Board</span>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-indigo-500/10 border border-indigo-500/30 font-mono text-xs font-semibold text-indigo-300">
+              <span class="text-slate-400 uppercase">BOARD</span>
+              <span class="w-1 h-1 rounded-full bg-indigo-400"></span>
+              <span class="text-white font-bold text-sm">MSBTE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SECTION 8: CONTACT SECTION // LET'S CONNECT
+       ======================================================== -->
+  <section id="contact" class="py-32 relative z-10 border-t border-white/5 bg-obsidian-gradient w-full flex flex-col items-center">
+    <div class="container w-full max-w-5xl mx-auto px-6 md:px-12 flex flex-col items-center text-center">
+      
+      <!-- Section Telemetry Badge -->
+      <div class="font-mono text-xs text-cyan-400 tracking-widest uppercase mb-3 flex items-center justify-center gap-2">
+        <span>[ SECTION 08 ]</span>
+        <div class="w-8 h-px bg-cyan-500/40"></div>
+        <span>INITIATE CONNECTION</span>
+      </div>
+
+      <!-- Centered Section Heading -->
+      <h2 class="font-display text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6">
+        LET'S <br class="sm:hidden">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 text-glow">
+          CONNECT
+        </span>
+      </h2>
+
+      <!-- Centered Introduction Description (Spacious Vertical Margin & Enhanced Line-Height) -->
+      <p class="contact-intro-desc text-slate-300 font-light mx-auto">
+        I'm available immediately for suitable QA Automation Engineer and Software Test Engineer opportunities. Feel free to contact me to discuss relevant roles.
+      </p>
+
+      <!-- Centered Contact Cards Grid (3 Cards in a Balanced Row) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl mb-12 text-left">
+        
+        <!-- Contact Card 1: Direct Transmission Email -->
+        <div class="glass-card contact-card p-6 sm:p-7 rounded-3xl border border-white/10 hover:border-cyan-400/40 transition-all flex flex-col justify-between group shadow-xl">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-105 transition-transform">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div class="contact-card-label text-cyan-400">
+              DIRECT TRANSMISSION
+            </div>
+            <a href="mailto:chaudharigunvant@gmail.com" class="contact-card-value text-white hover:text-cyan-300 transition-colors">
+              chaudharigunvant@gmail.com
+            </a>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+            <button id="copy-email-btn" class="inline-flex items-center gap-2 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors" title="Copy Email Address">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
+              </svg>
+              <span>COPY EMAIL</span>
+            </button>
+            <span class="text-[10px] font-mono text-slate-500 uppercase">PRIMARY</span>
+          </div>
+        </div>
+
+        <!-- Contact Card 2: Telephone Dialer -->
+        <div class="glass-card contact-card p-6 sm:p-7 rounded-3xl border border-white/10 hover:border-indigo-400/40 transition-all flex flex-col justify-between group shadow-xl">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-5 group-hover:scale-105 transition-transform">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+            </div>
+            <div class="contact-card-label text-indigo-400">
+              TELEPHONE DIALER
+            </div>
+            <a href="tel:+918087932718" class="contact-card-value text-white hover:text-cyan-300 transition-colors">
+              +91-8087932718
+            </a>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+            <a href="tel:+918087932718" class="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors">
+              <span>CALL NOW →</span>
+            </a>
+            <span class="text-[10px] font-mono text-slate-500 uppercase">DIRECT</span>
+          </div>
+        </div>
+
+        <!-- Contact Card 3: Location / Address (Strictly "Pune, Maharashtra, India" without any prefix) -->
+        <div class="glass-card contact-card p-6 sm:p-7 rounded-3xl border border-white/10 hover:border-emerald-400/40 transition-all flex flex-col justify-between group shadow-xl">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-5 group-hover:scale-105 transition-transform">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div class="contact-card-value text-white">
+              Pune, Maharashtra, India
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex items-center gap-2 text-xs font-mono text-emerald-400">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>AVAILABLE IMMEDIATELY</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action Buttons Row -->
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="mailto:chaudharigunvant@gmail.com?subject=QA%20Automation%20Role%20Inquiry%20-%20Gunvant%20Chaudhari" class="primary-hero-btn inline-flex items-center gap-2.5 px-8 py-3.5 rounded-xl font-display font-semibold text-sm text-white shadow-xl shadow-cyan-500/25 hover:shadow-cyan-400/40">
+          <span>COMPOSE DIRECT TRANSMISSION</span>
+          <svg class="w-4 h-4" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+        <a href="tel:+918087932718" class="secondary-hero-btn inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-slate-200">
+          <span>DIAL TELEPHONE</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="py-12 border-t border-white/5 bg-black/80 relative z-10 text-xs font-mono text-slate-500 w-full flex flex-col items-center">
+    <div class="container w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-7 h-7 rounded-lg bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-300 font-bold text-xs">
+          GC
+        </div>
+        <div>
+          <span class="text-white font-bold">Gunvant Chaudhari</span>
+          <span class="text-slate-400 ml-2">| QA Automation Engineer</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-6 text-slate-400">
+        <span>Email: <a href="mailto:chaudharigunvant@gmail.com" class="text-cyan-400 hover:underline">chaudharigunvant@gmail.com</a></span>
+        <span>•</span>
+        <span>Location: Pune, Maharashtra, India</span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <span>AVAILABLE IMMEDIATELY</span>
+        <span>•</span>
+        <a href="#hero" class="text-cyan-400 hover:underline">TOP ↑</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Info Modal for Resume & Social Placeholders -->
+  <div id="info-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+    <div class="p-6 sm:p-8 rounded-3xl border border-white/10 bg-obsidian-glass max-w-md w-full shadow-2xl relative">
+      <button id="modal-close-btn" class="absolute top-4 right-4 text-slate-400 hover:text-white p-1 rounded-lg" aria-label="Close dialog">
+        ✕
+      </button>
+      <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-4" id="modal-icon">
+        📄
+      </div>
+      <h3 class="font-display text-xl font-bold text-white mb-2" id="modal-title">Gunvant Chaudhari - Resume</h3>
+      <p class="text-sm text-slate-300 leading-relaxed mb-6" id="modal-desc">
+        To request Gunvant's complete official resume PDF, please connect directly via email at <a href="mailto:chaudharigunvant@gmail.com" class="text-cyan-400 underline">chaudharigunvant@gmail.com</a> or phone at <a href="tel:+918087932718" class="text-cyan-400 underline">+91-8087932718</a>.
+      </p>
+      <div class="flex items-center gap-3">
+        <a href="mailto:chaudharigunvant@gmail.com?subject=Resume%20Request%20-%20Gunvant%20Chaudhari" class="flex-1 py-3 px-4 text-center rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs hover:bg-cyan-400 transition-colors">
+          REQUEST VIA EMAIL
+        </a>
+        <button id="modal-dismiss-btn" class="py-3 px-4 rounded-xl border border-white/10 text-slate-300 text-xs font-mono hover:bg-white/5 transition-colors">
+          CLOSE
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
